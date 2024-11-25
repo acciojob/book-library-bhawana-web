@@ -1,64 +1,20 @@
 /*  your css code here. If applicable */
-/* General Body Styling */
-/* Body styles */
-body {
-  background-color: #f8f8f8;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+body{
+	background-color: #f8f8f8;
 }
-
-/* Library container */
-.book-library {
-  background-color: #ffffff;
-  width: 80%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.book-library{
+	background-color: #ffffff;
 }
-
-/* Book block styles */
-.book {
-  background-color: #fff;
-  width: 250px;
-  margin: 15px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+.author{
+	color: #777777;
 }
-
-.book:hover {
-  transform: scale(1.05);
+.price{
+	background-color: #2ecc71;
 }
-
-.book img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
+.book{
+	background-color: #f8f8f8;
 }
-
-.book h3 {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-.book .author {
-  color: #777777;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.book .price {
-  color: #2ecc71;
-  font-size: 18px;
-  font-weight: bold;
+.book-description{
+	color: rgb(255, 255, 255);
+	background-color: rgb(46, 204, 113);
 }
